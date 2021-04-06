@@ -9,14 +9,14 @@ import com.gustavoamorim.convidados.service.model.GuestModel
 @Database(entities = [GuestModel::class], version = 1)
 abstract class GuestDatabase : RoomDatabase() {
 
-    abstract fun guestDAO() : GuestDAO
+    abstract fun guestDAO(): GuestDAO
 
     companion object {
         private lateinit var INSTANCE: GuestDatabase
         fun getDatabase(context: Context): GuestDatabase {
             synchronized(GuestDatabase::class) {
-                if(!::INSTANCE.isInitialized) {
-                    INSTANCE =Room.databaseBuilder(context, GuestDatabase::class.java, "guestDB")
+                if (!::INSTANCE.isInitialized) {
+                    INSTANCE = Room.databaseBuilder(context, GuestDatabase::class.java, "guestDB")
                         .allowMainThreadQueries()
                         .build()
                 }

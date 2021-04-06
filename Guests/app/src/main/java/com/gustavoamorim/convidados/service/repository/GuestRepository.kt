@@ -32,7 +32,7 @@ class GuestRepository constructor(context: Context) {
     }
 
     fun delete(guest: GuestModel) {
-        mDatabase.update(guest)
+        mDatabase.delete(guest)
     }
 
 
