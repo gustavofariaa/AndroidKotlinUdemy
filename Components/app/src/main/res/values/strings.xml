@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Components</string>
+
+    <string-array name="spinner_values">
+        <item>ounce (oz)</item>
+        <item>pound (lb)</item>
+        <item>quarter (qt)</item>
+        <item>ton (t)</item>
+    </string-array>
+</resources>

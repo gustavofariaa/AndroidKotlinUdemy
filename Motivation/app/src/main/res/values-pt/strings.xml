@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Motivation</string>
+    <string name="textStart">Vamos começar?</string>
+    <string name="editName">Qual seu nome?</string>
+    <string name="buttonSave">Continuar</string>
+    <string name="textName">Olá, %s!</string>
+    <string name="buttonNewPhrase">Nova Frase</string>
+</resources>
